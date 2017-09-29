@@ -13,10 +13,10 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  color: #F0F0FF;
+  color: #FcFcFF;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -24,10 +24,10 @@ p {
 em,
 li,
 li a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   font-family: 'Encode Sans Expanded', sans-serif;
-  color: #00FF00;
+  color: #FCFCFF;
 }
 
 a {
@@ -953,8 +953,10 @@ fieldset[disabled] .btn-theme {
 .content-md {
   padding-top: 80px;
   padding-bottom: 80px;
+  padding: 80px 2em;
   width: 100%;
 }
+
 
 .content-lg {
   padding-top: 100px;
