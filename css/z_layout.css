@@ -13,10 +13,10 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  color: #F0F0FF;
+  color: #FcFcFF;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -24,10 +24,10 @@ p {
 em,
 li,
 li a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   font-family: 'Encode Sans Expanded', sans-serif;
-  color: #00FF00;
+  color: #FCFCFF;
 }
 
 a {
@@ -114,7 +114,7 @@ h4 {
 
 .bigtext {
   font-size: 28px;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Montserrat', 'Encode Sans Expanded', sans-serif;
   text-align: center;
   padding: 10px 50px;
 }
@@ -125,6 +125,13 @@ h4 {
   text-transform: uppercase;
   text-align: center;
   padding: 10px 0px 20px 0px;
+}
+
+.midtext {
+  font-size: 20px;
+  font-family: 'Montserrat', 'Encode Sans Expanded', sans-serif;
+  text-align: center;
+  padding: 10px 50px;
 }
 
 ::selection {
@@ -269,6 +276,8 @@ fieldset[disabled] .btn-theme {
 .work-sm {
   position: relative;
   min-height: 250px;
+  margin: 10px 0;
+  padding: 10px 20px;
 }
 
 .work .work-overlay {
@@ -416,18 +425,18 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .navbar-logo {
-  height: 210px;
+  height: 150px;
   float: left;
-  max-height: 210px;
-  line-height: 210px;
-  margin-bottom: 20px;
-  left: calc(50% - 100px);
+  max-height: 150px;
+  line-height: 150px;
+  margin-bottom: 10px;
+  left: calc(50vw - 80px);
   position: absolute;
 }
 
 .header .navbar-logo-wrap {
   display: inline-block;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .header .navbar-logo-wrap:focus, .header .navbar-logo-wrap:hover {
@@ -436,7 +445,7 @@ fieldset[disabled] .btn-theme {
 
 .header .navbar-logo-img {
   display: inline-block;
-  height: 201px;
+  height: 150px;
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
@@ -466,8 +475,8 @@ fieldset[disabled] .btn-theme {
   font-weight: 600;
   font-family: 'Encode Sans Expanded', sans-serif;
   text-transform: uppercase;
-  line-height: 55px;
-  padding: 20px;
+  line-height: 15px;
+  padding: 10px;
 }
 
 .header .nav-item-child.active {
@@ -476,7 +485,7 @@ fieldset[disabled] .btn-theme {
 
 .header .nav-item-child.active:after {
   position: absolute;
-  top: 45px;
+  top: 5px;
   left: 0;
   width: 9px;
   height: 2px;
@@ -555,7 +564,7 @@ fieldset[disabled] .btn-theme {
   }
   /* Navbar Nav */
   .header .nav-item-child {
-    line-height: 1.4;
+    line-height: 1.2;
     padding: 12px 12px 12px 15px;
   }
   .header .nav-item-child.active:after {
@@ -913,6 +922,22 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
+  	[Top Grid Styles]
+------------------------------------------------------------------*/
+.bottom-green {
+	border-bottom: 0px solid rgba(0,255,0,0.2);
+}
+
+.bottom-green:after {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 25%;
+	width: 50%;
+	border-bottom: 2px solid rgba(0,255,0,0.2);
+}
+
+/*------------------------------------------------------------------
   	[Content]
 ------------------------------------------------------------------*/
 .content {
@@ -928,8 +953,10 @@ fieldset[disabled] .btn-theme {
 .content-md {
   padding-top: 80px;
   padding-bottom: 80px;
+  padding: 80px 2em;
   width: 100%;
 }
+
 
 .content-lg {
   padding-top: 100px;
@@ -937,7 +964,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-md-top {
-  margin-top: 150px;
+  margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
