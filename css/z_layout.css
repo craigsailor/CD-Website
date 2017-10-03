@@ -116,7 +116,14 @@ h4 {
   font-size: 28px;
   font-family: 'Montserrat', 'Encode Sans Expanded', sans-serif;
   text-align: center;
-  padding: 10px 50px;
+  padding: 30px 50px 10px 50px;
+}
+
+.bigtext2 {
+  font-size: 28px;
+  font-family: 'Montserrat', 'Encode Sans Expanded', sans-serif;
+  text-align: center;
+  padding: 10px 50px 40px 50px;
 }
 
 .midheading {
@@ -270,7 +277,7 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .work {
   position: relative;
-  min-height: 500px;
+  min-height: 325px;
 }
 
 .work-sm {
@@ -348,6 +355,7 @@ fieldset[disabled] .btn-theme {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
+  height: 100px;
 }
 
 /* Navbar Toggle */
@@ -430,7 +438,7 @@ fieldset[disabled] .btn-theme {
   max-height: 150px;
   line-height: 150px;
   margin-bottom: 10px;
-  left: calc(50vw - 80px);
+  left: calc(50vw - 156px);
   position: absolute;
 }
 
@@ -817,6 +825,9 @@ fieldset[disabled] .btn-theme {
 
 /* Media Queries below 600px */
 @media (max-width: 600px) {
+  .nophone {
+	display: none;
+  }
   .masonry-grid .masonry-grid-item {
     width: 100%;
   }
