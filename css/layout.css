@@ -816,6 +816,10 @@ fieldset[disabled] .btn-theme {
   color: #fff;
 }
 
+.color-gray {
+  color: #8d8d8d;
+}
+
 .color-heading {
   color: #515769;
 }
