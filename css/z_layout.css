@@ -832,6 +832,9 @@ fieldset[disabled] .btn-theme {
     font-size: 22px;
     text-align: left;
   }
+  .org-img {
+	width: 90% !important;
+  }
   .masonry-grid .masonry-grid-item {
     width: 100%;
   }
@@ -950,6 +953,11 @@ fieldset[disabled] .btn-theme {
 	left: 25%;
 	width: 50%;
 	border-bottom: 2px solid rgba(0,255,0,0.2);
+}
+.org-img {
+	width: 35%;
+	float: right;
+	margin: 1em;
 }
 
 /*------------------------------------------------------------------
