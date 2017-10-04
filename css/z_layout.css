@@ -32,7 +32,7 @@ li a {
 
 a {
   font-family: 'Encode Sans Expanded', sans-serif;
-  color: #81848f;
+  color: #81CC8f;
   outline: 0;
 }
 
@@ -334,6 +334,10 @@ fieldset[disabled] .btn-theme {
 .footer .footer-logo {
   //width: 85px;
   height: 21px;
+}
+.license p {
+	font-size: 12px;
+	vertical-align: middle;
 }
 
 .footer .footer-list {
