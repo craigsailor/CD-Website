@@ -966,12 +966,9 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-md {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding: 80px 2em;
+  padding: 60px 4em;
   width: 100%;
 }
-
 
 .content-lg {
   padding-top: 100px;
