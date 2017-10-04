@@ -137,7 +137,7 @@ h4 {
 .midtext {
   font-size: 20px;
   font-family: 'Montserrat', 'Encode Sans Expanded', sans-serif;
-  text-align: center;
+  text-align: left;
   padding: 10px 50px;
 }
 
@@ -827,6 +827,10 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 600px) {
   .nophone {
 	display: none;
+  }
+  .bigtext, .bigtext2, .midtext {
+    font-size: 22px;
+    text-align: left;
   }
   .masonry-grid .masonry-grid-item {
     width: 100%;
